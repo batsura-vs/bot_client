@@ -7,7 +7,7 @@ from shared import clear
 
 
 class KillAll:
-    command = "kill all (.*)"
+    command = "kill all ([0-9]*)"
 
     def __init__(self, bot2):
         self.bot = bot2

@@ -4,7 +4,7 @@ from shared import clear
 
 
 class GenerateInvite:
-    command = "generate invite (.*)"
+    command = "generate invite ([0-9]*)"
 
     def __init__(self, bot):
         self.bot = bot

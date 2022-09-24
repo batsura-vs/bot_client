@@ -4,7 +4,7 @@ from shared import clear
 
 
 class SetOwner:
-    command = "set owner (.*)"
+    command = "set owner ([0-9]*)"
 
     def __init__(self, bot):
         self.bot = bot

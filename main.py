@@ -14,6 +14,7 @@ import shared
 from commands.clear import Clear
 from commands.generate_invite import GenerateInvite
 from commands.guilds import Guilds
+from commands.help import Help
 from commands.invite_bot import InviteBot
 from commands.kill_all import KillAll
 from commands.make_admin import MakeAdmin
@@ -39,6 +40,7 @@ listener.add_command(SetOwner(bot))
 listener.add_command(MakeAdmin(bot))
 listener.add_command(KillAll(bot))
 listener.add_command(Unban(bot))
+listener.add_command(Help(bot))
 
 
 @bot.event
